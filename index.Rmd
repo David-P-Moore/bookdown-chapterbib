@@ -4,7 +4,7 @@ author: "Sean Kross"
 date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
 documentclass: book
-bibliography: [book.bib]
+bibliography: [book.bib, packages.bib]
 biblio-style: authoryear
 link-citations: yes
 github-repo: seankross/bookdown-start
@@ -20,3 +20,10 @@ Sys.setenv(RSTUDIO_PDFLATEX = "latexmk")
 # Preface {-}
 
 This is the very first part of the book.
+
+```{r include=FALSE}
+# automatically create a bib database for R packages
+knitr::write_bib(c(
+  .packages(), 'bookdown', 'knitr', 'rmarkdown'
+), 'packages.bib')
+```
