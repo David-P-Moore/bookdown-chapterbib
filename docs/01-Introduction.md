@@ -1,4 +1,5 @@
 # Introduction
 
-This is the first real chapter.
+This is the first real chapter. [@xie2015; @R-base]
 
+\printbibliography[segment=\therefsegment,heading=subbibliography]
