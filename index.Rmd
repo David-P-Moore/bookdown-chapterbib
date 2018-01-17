@@ -6,9 +6,10 @@ site: bookdown::bookdown_site
 documentclass: book
 bibliography: [book.bib, packages.bib]
 biblio-style: authoryear
+biblatexoptions: [refsegment=chapter]
 link-citations: yes
-github-repo: seankross/bookdown-start
-url: 'http\://seankross.com/bookdown-start/'
+github-repo: rstub/bookdown-chapterbib
+url: 'http\://rstub.github.io/bookdown-chapterbib/'
 description: "Everything you need (and nothing more) to start a bookdown book."
 ---
 
