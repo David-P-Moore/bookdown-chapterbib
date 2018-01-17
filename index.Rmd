@@ -5,12 +5,17 @@ date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
 documentclass: book
 bibliography: [book.bib]
-biblio-style: apalike
+biblio-style: authoryear
 link-citations: yes
 github-repo: seankross/bookdown-start
 url: 'http\://seankross.com/bookdown-start/'
 description: "Everything you need (and nothing more) to start a bookdown book."
 ---
+
+```{r echo=FALSE}
+Sys.setenv(RSTUDIO_PDFLATEX = "latexmk")
+```
+
 
 # Preface {-}
 
