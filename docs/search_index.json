@@ -1,5 +1,5 @@
 [
-["index.html", "A Minimal Bookdown Book Preface", " A Minimal Bookdown Book Sean Kross 2018-01-17 Preface This is the very first part of the book. "],
+["index.html", "A Minimal Bookdown Book Preface", " A Minimal Bookdown Book Sean Kross 2018-01-23 Preface This is the very first part of the book. You can use anything that Pandoc’s Markdown supports, e.g., a math equation \\(a^2 + b^2 = c^2\\). "],
 ["introduction.html", "Chapter 1 Introduction", " Chapter 1 Introduction This is the first real chapter. (Xie 2015; R Core Team 2017) References "],
 ["diving-in.html", "Chapter 2 Diving In", " Chapter 2 Diving In Now let’s talk details. (Xie 2017b; Xie 2017a) References "],
 ["references.html", "References", " References "]

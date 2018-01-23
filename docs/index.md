@@ -1,7 +1,7 @@
 --- 
 title: "A Minimal Bookdown Book"
 author: "Sean Kross"
-date: "2018-01-17"
+date: "2018-01-23"
 site: bookdown::bookdown_site
 documentclass: book
 bibliography: [book.bib, packages.bib]
@@ -18,6 +18,7 @@ description: "Everything you need (and nothing more) to start a bookdown book."
 
 # Preface {-}
 
-This is the very first part of the book.
+This is the very first part of the book. You can use anything that Pandoc's
+Markdown supports, e.g., a math equation $a^2 + b^2 = c^2$.
 
 
